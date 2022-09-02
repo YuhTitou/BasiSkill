@@ -1,0 +1,432 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("./Quicksand/static/Quicksand-Medium.ttf");
+}
+
+body {
+    font-family: "Quicksand";
+    margin: 0%;
+}
+
+
+/*nav part*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    display: flex;
+    margin-right: auto;
+}
+
+#option {
+    display: flex;
+    flex-direction: row;
+    font-size: 130%;
+}
+
+#connexion {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+li {
+    margin: 2;
+    padding: 2;
+    border-radius: 5px;
+}
+
+#option li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+/* Change the link color to #111 (black) on hover */
+
+#option li a:hover {
+    background-color: rgb(58, 60, 61);
+    border-radius: 5px;
+    color: #f8f8f8;
+}
+
+#log {
+    background-color: #f8f8f8;
+    border: 0;
+    padding: 10;
+    text-shadow: #f8f8f8;
+    font-size: 130%;
+}
+#log a{
+    color: aqua;
+}
+
+#sign {
+    background-color: aqua;
+    border: 0;
+    border-radius: 5px;
+    padding: 10;
+    font-size: 130%;
+}
+#sign a{
+    color: white;
+}
+
+#connexion li a {
+    text-decoration: none;
+}
+
+/* #log a:hover{
+    background-color: aqua;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 10;
+    
+}
+
+#sign a{
+    color: white
+    
+}
+#sign:hover{
+    background-color: #f8f8f8;
+    border: 5px aqua;
+    color: aqua;
+    
+} */
+
+/*index part*/
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFBD59;
+    font-size: 3ch;
+}
+
+#work,
+#creation,
+#communication,
+#cybersecurity {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 75px;
+}
+
+#w_title,
+#com_title {
+    color: #7B5FB4;
+    font-size: 4ch;
+    text-align: left;
+    margin: 50;
+}
+
+#c_title,
+#cy_title {
+    font-size: 4ch;
+    color: #FFBD59;
+    text-align: right;
+    margin: 50;
+}
+
+#border {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+#intro_text,
+#intro_text_2 {
+    align-self: center;
+    font-size: 2ch;
+}
+
+#want_to_learn {
+    align-self: center;
+    color: #7B5FB4;
+    font-size: 5ch;
+}
+
+#testLink h1{
+    text-decoration: none;
+    color:#7B5FB4;
+    font-size: 125%; 
+    text-align: center;
+}
+
+#testLink{
+    background-color: #FFBD59;
+    height: 50px;
+    align-items:center;
+}
+ 
+
+/*work part*/
+
+.centeredw {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #7B5FB4;
+    font-size: 3ch;
+}
+
+#courses {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#fststep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+#fststep a {
+    text-decoration: none;
+}
+
+.center1 {
+    color: black;
+    font-size: 3ch;
+    position: relative;
+    
+}
+
+#imgfrstst {
+    border-radius: 25px;
+    opacity: 0.6;
+    width: 100ch;
+}
+
+#accessinfo {
+    border-radius: 25px;
+    opacity: 0.6;
+}
+
+
+/*main menu work*/
+
+#zonew {
+    height: 500px;
+    width: auto;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#workcenter {
+    text-align: center;
+    height: inherit;
+    background-image: url(img/backWork.png);
+    width: inherit;
+    display: grid;
+    align-content: center;
+}
+
+#workcenter p {
+    width: 75%;
+    margin: auto;
+}
+
+#work a {
+    text-decoration: none;
+    color: black;
+}
+
+/* --------> first step*/
+#nav_online_title{
+    color: aqua;
+    font-size: 4ch;
+}
+#navigate{
+    margin: 10px;
+    padding: 10px;
+}
+#task{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+#task p {
+    padding: 10px;
+}
+#figure{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.fig{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+/*main menu creation*/
+
+#zonec {
+    height: 500px;
+    width: auto;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#creationcenter {
+    text-align: center;
+    height: inherit;
+    background-image: url(img/backCrea.png);
+    width: inherit;
+    display: grid;
+    align-content: center;
+}
+
+#creationcenter p {
+    width: 75%;
+    margin: auto;
+}
+
+#creation a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*main menu communication*/
+
+#zonecom {
+    height: 500px;
+    width: auto;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#communicationcenter {
+    text-align: center;
+    height: inherit;
+    background-image: url(img/backComm.png);
+    width: inherit;
+    display: grid;
+    align-content: center;
+}
+
+#communicationcenter p {
+    width: 75%;
+    margin: auto;
+}
+
+#communication a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*main menu cybersecurity*/
+
+#zonecy {
+    height: 500px;
+    width: auto;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#cycenter {
+    text-align: center;
+    height: inherit;
+    background-image: url(img/backCyber.png);
+    width: inherit;
+    display: grid;
+    align-content: center;
+}
+
+#cycenter p {
+    width: 75%;
+    margin: auto;
+    color: whitesmoke;
+}
+
+#cybersecurity a {
+    text-decoration: none;
+    color: black;
+}
+
+/*login form*/
+
+form {
+    width: 30%;
+    padding: 45px;
+    /* border: 1px solid #f1f1f1; */
+    background: #fff;
+    /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
+    color: #000;
+    margin: auto;
+    
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 45px;
+}
+
+input[type=input],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #FFBD59;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: large;
+}
+
+input[type=submit]:hover {
+    background-color: white;
+    color: #FFBD59;
+    border: 2px solid #FFBD59;
+}
